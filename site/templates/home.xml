@@ -7,7 +7,21 @@
 		</head>
 
 		<body>
-			<h1>It works!</h1>
+			<section class="coming-soon">
+				<h1>
+					<img
+						src="_BASEURL.'/site/images/logo.png'"
+						alt="Rocket"
+						cms:eval="src"
+						/>
+					<cms:text constant="site_title"/>
+					<small><cms:text constant="slogan"/></small>
+				</h1>
+
+				<p>להרשמה לקורס מנהלי אוטומציה</p>
+				<p>Marketing Automation Manager</p>
+				<a href="https://callbox.ravpage.co.il/website">לחץ כאן</a>
+			</section>
 		</body>
 	</html>
 </document>
